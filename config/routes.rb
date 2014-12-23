@@ -1,4 +1,4 @@
-Refinery::Application.routes.draw do
+Refinery::Core::Engine.routes.draw do
 
   resources :newsletters,
             :only => [:index, :create],
